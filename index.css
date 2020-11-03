@@ -347,3 +347,61 @@
   [hidden] {
     display: none;
   }
+html{
+    /* width: 65%;  */
+
+}
+nav{
+    display: inline-block; 
+}
+button{
+    padding: 10px;  
+    margin: 4px 2px; 
+    /* text-align: center;  */
+    border-radius: 16px; 
+}
+  button  a {
+      text-decoration: none;
+      color: white; 
+}
+.plan-visit{
+    background: #ff754e
+}
+.learn-park{
+    background: #5dd3eb
+}
+.get-involved{
+    background: #ffcd6a;
+}
+.yosemite-container img{
+    width: 25%; 
+    border-radius: 50%;
+    margin: 4%; 
+}
+.section-1{
+    text-align: center; 
+    margin-left: 10rem; 
+}
+p{
+    text-align: center; 
+}
+.yosemite-info{
+    background:#ddb9a3;
+    color: white; 
+    /* text-align: center;  */
+}
+.safety-container img{
+    width: 20%; 
+    margin-left: 20rem; 
+}
+.safety-container{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; 
+}
+
+
+footer{
+    background: #f9e7dd
+}
