@@ -352,8 +352,9 @@ html{
   font-weight: normal;
   /* width: 600px;  */
   margin: 0 auto; 
+  box-sizing: border-box; 
   }
-    /* width: 65%;  */
+     
 
 }
 nav{
@@ -380,9 +381,14 @@ button{
 .get-involved{
     background: #FFCD69;
 }
-.top-content div{
+
+.top-content{
   display: inline-block; 
-  text-align: left; 
+  text-align: center; 
+  margin-left: 20rem; 
+}
+.top-content p{
+  text-align: center; 
 }
 
 
@@ -398,8 +404,13 @@ h1{
 	text-align: center; 
   margin: auto;
   font-size: 40px;
+  display: inline-block; 
 }
-
+#reservations{
+  width: 50%;
+  text-align: center; 
+  display: inline-block; 
+}
 p{
     text-align: center; 
 }
@@ -413,6 +424,9 @@ p{
 #fire,#truck{
   width: 25%; 
   margin-left: 43%;
+}
+span{
+  font-weight: 700; 
 }
 .safety-container img{
     width: 20%; 
