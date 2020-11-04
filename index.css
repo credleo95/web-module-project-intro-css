@@ -361,8 +361,8 @@ nav{
     display: inline; 
 }
 button{
-    height: 4rem; 
-    border: 3px solid transparent;  
+    width: 11rem; 
+    border: 6px solid transparent;  
     border-radius: 20px; 
     margin-left: 14%; 
     padding: 1%;  
@@ -381,7 +381,14 @@ button{
 .get-involved{
     background: #FFCD69;
 }
-
+header{
+  display: inline-block;
+  margin: 5%;  
+}
+/* h1,p{
+  display: inline-block;
+    margin: 5%;
+} */
 .top-content{
   display: inline-block; 
   text-align: center; 
@@ -395,15 +402,18 @@ button{
 #header-image{
     width: 25%; 
     border-radius: 50%;
-    margin: 4%; 
-    display: inline-block; 
-}
+    /* margin: 4%;  */
+    /* margin-right: 20%;  */
+    /* display: inline-block;  */
+    vertical-align: middle; 
+    float: left; 
+  }
 
 h1{
   font-family: chelsea market;
 	text-align: center; 
-  margin: auto;
-  font-size: 40px;
+  margin-left: 8rem;
+  font-size: 55px;
   display: inline-block; 
 }
 #reservations{
@@ -413,6 +423,7 @@ h1{
 }
 p{
     text-align: center; 
+    font-size: 28px;
 }
 
 .yosemite-info{
