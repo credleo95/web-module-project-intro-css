@@ -348,47 +348,71 @@
     display: none;
   }
 html{
+	font-family: Roboto Mono; 
+  font-weight: normal;
+  /* width: 600px;  */
+  margin: 0 auto; 
+  }
     /* width: 65%;  */
 
 }
 nav{
-    display: inline-block; 
+    display: inline; 
 }
 button{
-    padding: 10px;  
-    margin: 4px 2px; 
-    /* text-align: center;  */
-    border-radius: 16px; 
+    height: 4rem; 
+    border: 3px solid transparent;  
+    border-radius: 20px; 
+    margin-left: 14%; 
+    padding: 1%;  
+    margin-bottom: 2rem; 
 }
   button  a {
       text-decoration: none;
       color: white; 
 }
 .plan-visit{
-    background: #ff754e
+    background: #FF764E;
 }
 .learn-park{
-    background: #5dd3eb
+    background: #5ED3EB;
 }
 .get-involved{
-    background: #ffcd6a;
+    background: #FFCD69;
 }
-.yosemite-container img{
+.top-content div{
+  display: inline-block; 
+  text-align: left; 
+}
+
+
+#header-image{
     width: 25%; 
     border-radius: 50%;
     margin: 4%; 
+    display: inline-block; 
 }
-.section-1{
-    text-align: center; 
-    margin-left: 10rem; 
+
+h1{
+  font-family: chelsea market;
+	text-align: center; 
+  margin: auto;
+  font-size: 40px;
 }
+
 p{
     text-align: center; 
 }
+
 .yosemite-info{
-    background:#ddb9a3;
+    background:#DDB9A3;
     color: white; 
-    /* text-align: center;  */
+    margin: 2%;  
+    font-size: 22px; 
+}
+#fire,#truck{
+  width: 25%; 
+  margin-left: 43%;
 }
 .safety-container img{
     width: 20%; 
@@ -401,7 +425,11 @@ p{
     width: 50%; 
 }
 
-
+.footer-container img{
+  height: 15rem; 
+  width: 100%; 
+  margin-bottom: 2rem; 
+}
 footer{
-    background: #f9e7dd
+    background: #F9E7DC;
 }
